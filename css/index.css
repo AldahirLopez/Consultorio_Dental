@@ -1,0 +1,180 @@
+/*Barra superior*/
+.grid{
+    width: 90%;
+    margin: 20px 20px 20px 20px ;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.grid-content{
+    display: flex;
+    align-items: flex-start;
+    width: 95%;
+    height: 250px;
+}
+
+.grid-content img{
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+}
+
+.grid-content .info{
+    font-size: 16px;
+}
+
+.grid-content .info h3{
+    font-size: 18px;
+    text-align: left;
+    margin: 20px;
+}
+
+.grid-content .info p{
+    text-align: left;
+    margin: 20px;
+}
+
+.grid-content .info .link{
+    text-align: right;
+    margin: 20px;
+    padding-top: 80px;
+}
+
+.grid-content .info .link a{
+    text-decoration: none;
+    font-size: 19px;
+    color: rgba(59, 130, 246, 0.5);
+}
+
+.grid-content .info .link a:hover{
+    --tw-text-opacity: 1;
+    color: rgba(33, 154, 227, var(--tw-text-opacity));
+}
+
+.compromisos{
+    margin: 30px 30px 30px 30px;
+    height: 450px;
+    background-color: #7bcefe
+}
+
+.compromisos .titulo{
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.compromisos .icons-compro{
+    padding-top: 25px;
+    justify-content: center;
+    display: flex;
+}
+
+.compromisos .icons-compro .icon{
+    justify-content: center;
+}
+
+.compromisos .icons-compro .icon img{
+    width: 120px;
+    margin: 25px;
+}
+
+.compromisos .icons-compro .icon h3{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*Slider*/
+
+.container{
+    width: 100%;
+    position: relative;
+}
+.mySlides{
+    display: none;
+}
+.mySlides img{
+    width: 100%;
+    height: 100%;
+}
+.prev,.next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6 ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    border:  solid #fff 2px;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover,.next:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.elements{
+    text-align: center;
+}
+.quadrate{
+    cursor: pointer;
+    height: 4px;
+    width: 50px;
+    margin: 0 2px;
+    background-color: #717171;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    border-radius: 2px;
+}
+.active, .quadrate:hover{
+    background-color: #fff;
+}
+
+/*slider*/
+
+/*Boton flotante*/
+.btn-flotante {
+	font-size: 56px; /* Cambiar el tamaño de la tipografia */
+	font-weight: bold; /* Fuente en negrita o bold */
+	color: green; /* Color del texto */
+	border-radius: 5px; /* Borde del boton */
+	letter-spacing: 2px; /* Espacio entre letras */
+	background-color: none; /* Color de fondo */
+	padding: 8px 10px; /* Relleno del boton */
+	position: fixed;
+	bottom: 10px;
+	right: 40px;
+	transition: all 300ms ease 0ms;
+	z-index: 99;
+}
+.btn-flotante:hover {
+	transform: translateY(-7px);
+}
+@media only screen and (max-width: 600px) {
+ 	.btn-flotante {
+		font-size: 14px;
+		padding: 12px 20px;
+		bottom: 20px;
+		right: 20px;
+	}
+} 
+/*Boton flotante*/
+
+@media (max-width:1200px){
+    .grid{
+        display: block;
+    }
+    .grid-content{
+        width: 100%;
+        height: 350px;
+        margin: 0px 0px 20px 0px;
+    }
+  }

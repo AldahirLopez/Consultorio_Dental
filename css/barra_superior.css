@@ -1,0 +1,33 @@
+/* banner */
+
+.nav-cita{
+    width: 100%;
+    height: 50px;
+    background-color: #7ccdff; 
+    text-align: center;
+}
+
+.nav-cita .agenda-top{
+    height: 50px;
+    background-color: #7ccdff;
+    color: #00309e;
+    display: block;
+    padding: 13.3333333333px;
+    font-size: 15px;
+    font-weight: 700;
+    width: 100%;
+    
+}
+
+.nav-cita .agenda-top:hover{
+    background-color: #00309e;
+    color: white;
+    transition: all .4s ease 0s;
+}
+
+.nav-cita .agenda-top span{
+    padding-left: 10px;
+    text-transform: uppercase;
+    
+}
+/* banner */
