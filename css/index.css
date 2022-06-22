@@ -30,6 +30,7 @@
 }
 
 .grid-content .info p{
+    height: 50px;
     text-align: left;
     margin: 20px;
 }
